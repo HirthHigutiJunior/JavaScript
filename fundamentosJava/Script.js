@@ -12,17 +12,17 @@ var area;
 
 //let 
 
-let forma = "retângulo";
-let altura = 5;
-let comprimento = 7;
+//let forma = "retângulo";
+//let altura = 5;
+//let comprimento = 7;
 
-if (forma === "retângulo"){
-    area = altura * comprimento;
-}else{
-    (altura * comprimento) /2;
-}
-let area;
-console.log(area)
+//if (forma === "retângulo"){
+//    area = altura * comprimento;
+//}else{
+//    (altura * comprimento) /2;
+//}
+//let area;
+//console.log(area)
 
 //let e var consigo utilizar praticamente para as mesmas coisas porem a var seria mais solta e não necessário declarar.
 
