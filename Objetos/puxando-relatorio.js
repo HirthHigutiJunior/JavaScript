@@ -22,16 +22,16 @@ const cliente = {
     }
     //aqui o banco de dados pediu apenas informações básicas do cliente 
 
-    let relatorio='',
+    let relatorio=''
 
-    for (let info in cliente) {
+    for(let info in cliente) {
         if(typeof cliente[info] === 'object'||typeof cliente[info]==='function'){
             continue
         }else{
-            relatorio+= `${info} ==> ${cliente[info]}
+            relatorio += `                    ${info} ==> ${cliente[info]}
             `
         }
         }
         console.log(relatorio)
 
-        //deu ruim essa, nao sei que merda eu fiz
+        // deu ruim essa, nao sei que merda eu fiz
